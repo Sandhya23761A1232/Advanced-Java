@@ -27,3 +27,15 @@ Implemented JDBC connectivity with MySQL using PreparedStatement.
 Executed parameterized queries for secure database interaction.
 
 Performed CRUD operations with improved efficiency and protection against SQL injection.
+
+
+
+✅ Day 3 – JDBC with CallableStatement (Stored Procedures)
+
+Connected Java with MySQL using CallableStatement.
+
+Executed stored procedures for database operations.
+
+Demonstrated usage of IN, OUT, and INOUT parameters.
+
+Showed how CallableStatement improves reusability and efficiency in enterprise applications.
