@@ -1,6 +1,4 @@
-# Advanced-Java
-
-Advanced Java Lab Work – This repository contains my daily lab exercises and implementations on Advanced Java concepts, including Servlets, JSP, JSTL, JDBC, and Spring for enterprise web application development.
+# Advanced-JavaAdvanced Java Lab Work – This repository contains my daily lab exercises and implementations on Advanced Java concepts, including Servlets, JSP, JSTL, JDBC, and Spring for enterprise web application development.
 
 
 
@@ -21,7 +19,6 @@ Delete → Remove records
 
 
 
-
 ✅ Day 2 – JDBC CRUD with MySQL (PreparedStatement Object)
 
 Implemented JDBC connectivity with MySQL using PreparedStatement.
@@ -29,6 +26,9 @@ Implemented JDBC connectivity with MySQL using PreparedStatement.
 Executed parameterized queries for secure database interaction.
 
 Performed CRUD operations with improved efficiency and protection against SQL injection.
+
+
+
 
 ✅ Day 3 – JDBC with CallableStatement (Stored Procedures)
 
@@ -60,3 +60,22 @@ Before First, After Last
 Get Current Row Number
 
 Demonstrated cursor control, row data retrieval, and resource management in JDBC.
+
+
+
+
+✅ Day 5 – JDBC with Updatable ResultSet (Employee Management)
+
+Implemented an Employee Management application using Updatable ResultSet in JDBC.
+
+Established connection with MySQL and enabled scroll-sensitive, updatable result sets.
+
+Features:
+
+Display Employees → Fetch and display all employee records.
+
+Update Salary → Search employee by name and update their salary directly in the ResultSet.
+
+Demonstrated how changes in a ResultSet are immediately reflected in the database.
+
+Includes menu-driven interface and proper resource handling.
