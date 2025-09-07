@@ -80,3 +80,55 @@ Update Salary → Search employee by name and update their salary directly in th
 Demonstrated how changes in a ResultSet are immediately reflected in the database.
 
 Includes menu-driven interface and proper resource handling.
+
+
+
+✅ Day 6 – Servlet Test Application (Factorial, Addition, Languages)
+
+This lab exercise demonstrates the power of Servlets by handling different kinds of dynamic web operations through form input and server-side processing.
+
+🔹 Features Implemented:
+
+Factorial Servlet
+
+Accepts a number from the user via an HTML form.Computes the factorial using Java logic inside the servlet.
+
+Returns the result dynamically as an HTML response.
+
+Demonstrates mathematical computation with Servlets.
+
+Addition Servlet
+
+Accepts two numbers as input from the user.
+
+Computes their sum and displays the result on the browser.
+
+Illustrates how servlets can handle arithmetic operations and user data.
+
+Languages Servlet
+
+Accepts multiple language selections from the user (checkbox inputs).
+
+Displays all languages known by the user.
+
+Demonstrates handling of multiple input values and form processing in servlets.
+
+🔹 Deployment Descriptor (web.xml)
+
+Configures all three servlets with unique servlet-name and url-pattern.
+
+Maps form actions in index.html to the respective servlets.
+
+Ensures clean request–response flow using Servlet mappings.
+
+🔹 Entry Page (index.html)
+
+Acts as a welcome page for the application.
+
+Provides links and forms for:
+
+Finding factorial.
+
+Performing addition of two numbers.
+
+Selecting known languages.
