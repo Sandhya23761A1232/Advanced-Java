@@ -132,3 +132,26 @@ Finding factorial.
 Performing addition of two numbers.
 
 Selecting known languages.
+
+
+
+
+✅ Day 7 – Servlet Collaboration (Login & Welcome Servlets)
+
+A simple Java web application demonstrating servlet collaboration and session handling.
+
+Features
+
+Index Page (index.html) → Provides login form for user input.
+
+Login Servlet → Authenticates user credentials and forwards the request.
+
+Welcome Servlet → Displays a personalized welcome message after successful login.
+
+Concepts Covered
+
+Servlet collaboration using RequestDispatcher (forward & include)
+
+Request/response handling with HttpServletRequest & HttpServletResponse
+
+Basic session management and parameter passing
