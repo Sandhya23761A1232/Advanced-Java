@@ -196,3 +196,54 @@ Request forwarding and redirection using RequestDispatcher
 Modular servlet design (Registration, Login, Welcome, Logout)
 
 Session timeout and proper logout handling
+
+
+
+
+
+
+✅ Day 9 – Student Management Project (HttpSession & Filters)
+
+This lab exercise demonstrates a student management system built using Servlets, with state management via HttpSession and Servlet Filters for request preprocessing and security.
+
+🔹 Features Implemented:
+
+Student Registration & Login → New users can register, and existing users can log in.
+
+HttpSession State Management → Maintains user session across multiple requests after successful login.
+
+Welcome Page → Displays personalized content using session attributes.
+
+Logout Servlet → Ends the session and redirects back to login page.
+
+Servlet Filters →
+
+Restrict direct access to protected resources without authentication.
+
+Validate input data before processing.
+
+Perform logging for incoming requests.
+
+🔹 Concepts Covered:
+
+Servlets (doGet, doPost) for handling registration, login, and logout
+
+HttpSession for session tracking and state management
+
+Filters for authentication, validation, and logging
+
+Request forwarding & redirection using RequestDispatcher
+
+Separation of concerns (Frontend → HTML/JSP, Backend → Servlets + JDBC)
+
+🔹 Deployment Descriptor (web.xml):
+
+Configures servlets (RegistrationServlet, LoginServlet, WelcomeServlet, LogoutServlet)
+
+Defines Filter mappings to secure and validate requests
+
+🔹 Entry Pages:
+
+registration.html → Collects new student details and stores them in DB
+
+login.html → Authenticates users and starts session
