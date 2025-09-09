@@ -155,3 +155,44 @@ Servlet collaboration using RequestDispatcher (forward & include)
 Request/response handling with HttpServletRequest & HttpServletResponse
 
 Basic session management and parameter passing
+
+
+
+
+
+
+✅ Day 8 – User Registration & Login Authentication with HttpSession
+
+This lab exercise demonstrates a complete user authentication system using Servlets, JDBC, and HttpSession for secure session management.
+
+🔹 Features Implemented:
+
+Registration Page (registration.html) → Allows new users to register by entering their details. Data is stored in the MySQL database.
+
+Login Page (login.html) → Authenticates existing users using email and password.
+
+Registration Servlet → Handles new user registration and database insertion.
+
+Login Servlet →
+
+Validates login credentials against the database.
+
+Creates a new HttpSession for authenticated users.
+
+Forwards to Welcome page upon successful login.
+
+Welcome Servlet → Displays personalized content using session attributes.
+
+Logout Servlet → Invalidates the HttpSession and redirects users back to login page.
+
+🔹 Concepts Covered:
+
+JDBC connectivity with MySQL for registration and authentication
+
+HttpSession for managing user login state across multiple requests
+
+Request forwarding and redirection using RequestDispatcher
+
+Modular servlet design (Registration, Login, Welcome, Logout)
+
+Session timeout and proper logout handling
