@@ -83,6 +83,8 @@ Includes menu-driven interface and proper resource handling.
 
 
 
+
+
 ✅ Day 6 – Servlet Test Application (Factorial, Addition, Languages)
 
 This lab exercise demonstrates the power of Servlets by handling different kinds of dynamic web operations through form input and server-side processing.
@@ -132,6 +134,7 @@ Finding factorial.
 Performing addition of two numbers.
 
 Selecting known languages.
+
 
 
 
