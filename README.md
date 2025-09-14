@@ -250,3 +250,22 @@ Defines Filter mappings to secure and validate requests
 registration.html → Collects new student details and stores them in DB
 
 login.html → Authenticates users and starts session
+
+
+
+
+
+
+✅ Day 10  -  Multiplication Table Generator using JSP
+
+This project is a simple JSP-based web application that dynamically generates the multiplication table for a number selected by the user. The application demonstrates JSP fundamentals such as form handling, request parameter retrieval, and server-side scripting.
+
+🔹 Features
+
+Entry page with a dropdown list of numbers (1–100).
+
+User selects a number and submits through a form.
+
+JSP processes the request and displays the multiplication table (1–10) for the chosen number.
+
+Uses HTML, JavaScript, and JSP scripting elements.
