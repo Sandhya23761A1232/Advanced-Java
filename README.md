@@ -269,3 +269,9 @@ User selects a number and submits through a form.
 JSP processes the request and displays the multiplication table (1–10) for the chosen number.
 
 Uses HTML, JavaScript, and JSP scripting elements.
+
+
+
+
+✅ Day 11  - Addition of Two Numbers – JSP Application
+This project demonstrates a simple Java Server Pages (JSP) application that performs the addition of two numbers. The program combines both input and output logic into a single JSP file. Users can enter two numbers in a form, and the JSP page processes the input and displays the result dynamically.
