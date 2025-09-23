@@ -275,3 +275,39 @@ Uses HTML, JavaScript, and JSP scripting elements.
 
 ✅ Day 11  - Addition of Two Numbers – JSP Application
 This project demonstrates a simple Java Server Pages (JSP) application that performs the addition of two numbers. The program combines both input and output logic into a single JSP file. Users can enter two numbers in a form, and the JSP page processes the input and displays the result dynamically.
+
+
+
+
+
+
+✅ Day 12 - JDBC with JSP – Student Registration System
+This project is a simple web application built using JSP (Java Server Pages) and JDBC (Java Database Connectivity). It demonstrates form handling, JavaBean usage, and database operations through a DAO (Data Access Object) pattern.
+
+📌 Features
+
+Home Page (HTML) → Entry point of the application.
+
+Student Registration (JSP) → Collects student details (Roll No, Name, Email, Branch, Year, Section).
+
+JavaBean → Student.java represents the student entity with getters and setters.
+
+DAO Layer → StudentDAO.java handles database insertion using JDBC.
+
+Database Connectivity → Connects to MySQL and inserts student records.
+
+Dynamic Output → Displays the entered student details and shows success/failure of insertion.
+
+🛠️ Technologies Used
+
+Java (JDK 8+)
+
+JSP / Servlets
+
+JDBC
+
+MySQL (Database)
+
+Apache Tomcat (Server)
+
+NetBeans / Eclipse / IntelliJ IDEA (IDE)
