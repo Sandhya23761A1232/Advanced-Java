@@ -282,6 +282,7 @@ This project demonstrates a simple Java Server Pages (JSP) application that perf
 
 
 ✅ Day 12 - JDBC with JSP – Student Registration System
+
 This project is a simple web application built using JSP (Java Server Pages) and JDBC (Java Database Connectivity). It demonstrates form handling, JavaBean usage, and database operations through a DAO (Data Access Object) pattern.
 
 📌 Features
