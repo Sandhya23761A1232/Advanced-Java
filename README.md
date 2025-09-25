@@ -3,7 +3,6 @@ Advanced Java Lab Work – This repository contains my daily lab exercises and i
 
 
 
-
 ✅ Day 1 – JDBC CRUD with MySQL (Statement Object)
 
 Established JDBC connection with MySQL.
