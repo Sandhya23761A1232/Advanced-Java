@@ -310,4 +310,33 @@ MySQL (Database)
 
 Apache Tomcat (Server)
 
-NetBeans / Eclipse / IntelliJ IDEA (IDE)
+NetBeans (IDE)
+
+
+
+
+
+✅ Day 13 – StudentInsertDisplayApp (JSP + JDBC)
+
+A simple web application that allows users to **insert new student records** and **display all stored student records**.
+
+🔹 Features:
+
+- Insert Student → Add Roll No, Name, Email, Branch, Year, Section into MySQL database  
+- Display Records → Show all student records in a table using JSP and JSTL  
+- DAO Pattern → `StudentDAO.java` separates database logic from JSP  
+- JavaBean → `Student.java` represents student entity  
+
+🔹 Technologies Used:
+
+- Java (JDK 8+)  
+- JSP / JSTL  
+- JDBC  
+- MySQL Database  
+- Apache Tomcat  
+- NetBeans IDE  
+
+🔹 Usage:
+
+1. Open `index.jsp` to add a new student.  
+2. Open `viewstudents.jsp` to view all student records.  
