@@ -338,4 +338,45 @@ A simple web application that allows users to **insert new student records** and
 🔹 Usage:
 
 1. Open `index.jsp` to add a new student.  
-2. Open `viewstudents.jsp` to view all student records.  
+2. Open `viewstudents.jsp` to view all student records.
+
+
+
+
+   ✅ Day 14 – JSTL Core Tag Programs (Factorial & Addition)
+
+This lab exercise demonstrates the use of JSTL (JavaServer Pages Standard Tag Library) Core Tags in JSP to perform arithmetic operations without using Java scriptlets. The programs showcase the power of JSTL for writing clean, maintainable, and readable JSP pages.
+
+🔹 Program 1 – Factorial of a Number (week12a.jsp)
+This JSP program calculates the factorial of a given number using JSTL tags.
+
+Accepts a number from the user via an HTML form.
+
+Uses <c:forEach> to iterate from 1 to n and compute the factorial.
+
+<c:set> is used for variable initialization and updating values.
+
+<c:if> checks for valid input before processing.
+
+Displays the final result using <c:out>.
+
+Example:
+If the user enters 5, the output will be:
+
+Factorial of 5 is: 120
+
+🔹 Program 2 – Addition of 5 Numbers (addition.jsp)
+This JSP program performs the addition of five user-entered numbers using JSTL core tags.
+
+Accepts five numbers with the same input name (num) in an HTML form.
+
+Retrieves all values as an array using paramValues.num.
+
+Iterates through the array with <c:forEach> and adds them together.
+
+Displays the result dynamically using <c:out>.
+
+Example:
+If the user enters 10, 20, 30, 40, 50, the output will be:
+
+Sum of the given numbers is: 150
