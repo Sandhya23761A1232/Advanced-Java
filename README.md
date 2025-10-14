@@ -376,6 +376,31 @@ Iterates through the array with <c:forEach> and adds them together.
 
 Displays the result dynamically using <c:out>.
 
+
+
+
+
+
+
+
+✅ Day 14 –  JSTL SQL Tags CRUD Application
+
+This project is a JSP-based web application that performs CRUD (Create, Read, Update, Delete) operations on a database using JSTL SQL tags.
+It demonstrates how to connect a JSP page to a database and execute SQL queries using <sql:setDataSource>, <sql:query>, and <sql:update> without writing JDBC code.
+
+The application includes individual JSP files for each operation — insert.jsp, view.jsp, edit.jsp, update.jsp, and delete.jsp — making the workflow simple and easy to understand.
+It uses the JSTL Core tag library for iteration and data display and the SQL tag library for managing database operations.
+
+🔧 Features
+
+Insert, View, Edit, Update, and Delete records from the database
+
+Database connection using JSTL <sql:setDataSource>
+
+Dynamic data display using <c:forEach>
+
+Simple and clean JSP-based interface
+
 Example:
 If the user enters 10, 20, 30, 40, 50, the output will be:
 
